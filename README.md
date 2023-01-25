@@ -1,6 +1,19 @@
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=GreggSchofield_golden-image-bakery)
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=GreggSchofield_golden-image-bakery&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=GreggSchofield_golden-image-bakery)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GreggSchofield_golden-image-bakery&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=GreggSchofield_golden-image-bakery)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=GreggSchofield_golden-image-bakery&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=GreggSchofield_golden-image-bakery)
+
 # golden-image-bakery
 An artefact bakery capable of building and configuring machine and container images 
 targeting multiple public cloud IaaS compute options and platforms
+
+## Static analysis
+
+All infrastructure as code (IaC) written in Terraform within this repository is
+scanned with [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) to
+ensure a high standard of maintainability and security among other non-functional
+requirements.
 
 ## Security
 
